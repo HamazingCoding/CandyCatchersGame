@@ -1,0 +1,382 @@
+fileFormatVersion: 2
+guid: 85d9f0dcbce742a49819586d0dea9df3
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pumpkin_Candy_0
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 383
+        width: 132
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c566b84704ed22947a085c3629ff0392
+      internalID: 1041971085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pumpkin_Candy_7
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 369
+        width: 111
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aad9a7afc044d2648b2b668f16465e89
+      internalID: -589224457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pumpkin_Candy_8
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 323
+        width: 127
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7abcf60c3a6a1842ac250e8c7fccab5
+      internalID: -1267049716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pumpkin_Candy_11
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 272
+        width: 122
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e55d5fbb264dd4c80727bf1c6b4bdb
+      internalID: 533940330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pumpkin_Candy_20
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 232
+        width: 122
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f3a1dd21fe7aff41a917cbdb22353bd
+      internalID: 2028318194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pumpkin_Candy_21
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 232
+        width: 120
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad7ce5dda71a2546addde3fda885c5d
+      internalID: -2087397750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pumpkin_Candy_26
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 275
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e3ecceff657004aa20546c28019325
+      internalID: 399105427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pumpkin_Candy_34
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 133
+        width: 119
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5ec0cecac03854ba24141884b0b41b
+      internalID: 1298015360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pumpkin_Candy_35
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 235
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d32e4d6362023d4ca3a478f83c13fe4
+      internalID: -169141008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pumpkin_Candy_38
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 88
+        width: 146
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a95e92c5663054d928fb39e8a15365
+      internalID: -1116216459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ba2debe3b941a6e4985884381ce8ccfe
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Pumpkin_Candy_0: 1041971085
+      Pumpkin_Candy_1: 1679788284
+      Pumpkin_Candy_10: -83973823
+      Pumpkin_Candy_11: 533940330
+      Pumpkin_Candy_12: -1219345322
+      Pumpkin_Candy_13: -1529229147
+      Pumpkin_Candy_14: 1350588539
+      Pumpkin_Candy_15: 1680978451
+      Pumpkin_Candy_16: 849866450
+      Pumpkin_Candy_17: -1652263607
+      Pumpkin_Candy_18: 497616434
+      Pumpkin_Candy_19: -46944082
+      Pumpkin_Candy_2: 1426108745
+      Pumpkin_Candy_20: 2028318194
+      Pumpkin_Candy_21: -2087397750
+      Pumpkin_Candy_22: -1566949345
+      Pumpkin_Candy_23: -1015866428
+      Pumpkin_Candy_24: -1858746421
+      Pumpkin_Candy_25: -664252173
+      Pumpkin_Candy_26: 399105427
+      Pumpkin_Candy_27: 954233253
+      Pumpkin_Candy_28: -1954618663
+      Pumpkin_Candy_29: 1513598943
+      Pumpkin_Candy_3: -2118746185
+      Pumpkin_Candy_30: 2145472549
+      Pumpkin_Candy_31: -749842246
+      Pumpkin_Candy_32: 1989429910
+      Pumpkin_Candy_33: -814931717
+      Pumpkin_Candy_34: 1298015360
+      Pumpkin_Candy_35: -169141008
+      Pumpkin_Candy_36: 870196570
+      Pumpkin_Candy_37: 309373108
+      Pumpkin_Candy_38: -1116216459
+      Pumpkin_Candy_39: 848385635
+      Pumpkin_Candy_4: -1010112130
+      Pumpkin_Candy_40: 381322979
+      Pumpkin_Candy_41: -557351132
+      Pumpkin_Candy_42: -1455432587
+      Pumpkin_Candy_5: -813742968
+      Pumpkin_Candy_6: -701838868
+      Pumpkin_Candy_7: -589224457
+      Pumpkin_Candy_8: -1267049716
+      Pumpkin_Candy_9: 1340100968
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

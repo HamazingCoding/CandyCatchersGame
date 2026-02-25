@@ -1,0 +1,832 @@
+fileFormatVersion: 2
+guid: 32e8fd8a31e4ab140b1fc9eadc733ea9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5880885260215632959
+    second: Store Redited_0
+  - first:
+      213: 2077928036673808449
+    second: Store Redited_1
+  - first:
+      213: -8926300145556046612
+    second: Store Redited_2
+  - first:
+      213: 8208832464323785893
+    second: Store Redited_3
+  - first:
+      213: -1316837000629444098
+    second: Store Redited_4
+  - first:
+      213: -6431792573381195647
+    second: Store Redited_5
+  - first:
+      213: -7913988004301201846
+    second: Store Redited_6
+  - first:
+      213: -9013220598333561663
+    second: Store Redited_7
+  - first:
+      213: 6360422491259291601
+    second: Store Redited_8
+  - first:
+      213: 5398272502155169532
+    second: Store Redited_9
+  - first:
+      213: 6422543893322371338
+    second: Store Redited_10
+  - first:
+      213: -9173084378438498484
+    second: Store Redited_11
+  - first:
+      213: -8422445003310967465
+    second: Store Redited_12
+  - first:
+      213: 6304503407194806211
+    second: Store Redited_13
+  - first:
+      213: -3744171465533574328
+    second: Store Redited_14
+  - first:
+      213: 157620201911648658
+    second: Store Redited_15
+  - first:
+      213: -5723977297237506627
+    second: Store Redited_16
+  - first:
+      213: 1115757171952006272
+    second: Store Redited_17
+  - first:
+      213: 6037591391879782197
+    second: Store Redited_18
+  - first:
+      213: -4268396633586317094
+    second: Store Redited_19
+  - first:
+      213: -7289669378844547263
+    second: Store Redited_20
+  - first:
+      213: -2035256636166022755
+    second: Store Redited_21
+  - first:
+      213: 2143547020422457418
+    second: Store Redited_22
+  - first:
+      213: 3841551692071740742
+    second: Store Redited_23
+  - first:
+      213: 8317185086527978031
+    second: Store Redited_24
+  - first:
+      213: -4539490916818599567
+    second: Store Redited_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Store Redited_0
+      rect:
+        serializedVersion: 2
+        x: 1950
+        y: 2295
+        width: 125
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f34cbf36cf91d9150800000000000000
+      internalID: 5880885260215632959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Store Redited_1
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 2295
+        width: 119
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14864ce3a8846dc10800000000000000
+      internalID: 2077928036673808449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Store Redited_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2241
+        width: 48
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cec3d99af496f1480800000000000000
+      internalID: -8926300145556046612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Store Redited_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1890
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a4b6b052a1abe170800000000000000
+      internalID: 8208832464323785893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Store Redited_4
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 73
+        width: 2000
+        height: 2065
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef1246e89b7a9bde0800000000000000
+      internalID: -1316837000629444098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Store Redited_5
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1378
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1884e9a4bbeadb6a0800000000000000
+      internalID: -6431792573381195647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Store Redited_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1306
+        width: 47
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4e9ce617dddb2290800000000000000
+      internalID: -7913988004301201846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Store Redited_7
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1264
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c42812be9b9ae280800000000000000
+      internalID: -9013220598333561663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Store Redited_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1126
+        width: 5
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d74aec8e82c44850800000000000000
+      internalID: 6360422491259291601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Store Redited_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 937
+        width: 66
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfec7bb4d348aea40800000000000000
+      internalID: 5398272502155169532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Store Redited_10
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 747
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0195d394a5712950800000000000000
+      internalID: 6422543893322371338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Store Redited_11
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 684
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c470d70eb58a2b080800000000000000
+      internalID: -9173084378438498484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Store Redited_12
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 688
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 755d26db4e67d1b80800000000000000
+      internalID: -8422445003310967465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Store Redited_13
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 688
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c7161732781e7750800000000000000
+      internalID: 6304503407194806211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Store Redited_14
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 688
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 843b7bab3e70a0cc0800000000000000
+      internalID: -3744171465533574328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Store Redited_15
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 688
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2918e501dbaff2200800000000000000
+      internalID: 157620201911648658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Store Redited_16
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 640
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db502cf99f85090b0800000000000000
+      internalID: -5723977297237506627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Store Redited_17
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 580
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0843bc18c37fb7f00800000000000000
+      internalID: 1115757171952006272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Store Redited_18
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 573
+        width: 34
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53f53f3e165d9c350800000000000000
+      internalID: 6037591391879782197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Store Redited_19
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 564
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad84d9e60eb93c4c0800000000000000
+      internalID: -4268396633586317094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Store Redited_20
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 549
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 147adef7254e5da90800000000000000
+      internalID: -7289669378844547263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Store Redited_21
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 510
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9951966fd051c3e0800000000000000
+      internalID: -2035256636166022755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Store Redited_22
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 481
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a48a0a778a86fbd10800000000000000
+      internalID: 2143547020422457418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Store Redited_23
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 474
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 645ac3819eeef4530800000000000000
+      internalID: 3841551692071740742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Store Redited_24
+      rect:
+        serializedVersion: 2
+        x: 2265
+        y: 85
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2a3da515c39c6370800000000000000
+      internalID: 8317185086527978031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Store Redited_25
+      rect:
+        serializedVersion: 2
+        x: 2268
+        y: 99
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1714ae9ff0d7001c0800000000000000
+      internalID: -4539490916818599567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Store Redited_0: 5880885260215632959
+      Store Redited_1: 2077928036673808449
+      Store Redited_10: 6422543893322371338
+      Store Redited_11: -9173084378438498484
+      Store Redited_12: -8422445003310967465
+      Store Redited_13: 6304503407194806211
+      Store Redited_14: -3744171465533574328
+      Store Redited_15: 157620201911648658
+      Store Redited_16: -5723977297237506627
+      Store Redited_17: 1115757171952006272
+      Store Redited_18: 6037591391879782197
+      Store Redited_19: -4268396633586317094
+      Store Redited_2: -8926300145556046612
+      Store Redited_20: -7289669378844547263
+      Store Redited_21: -2035256636166022755
+      Store Redited_22: 2143547020422457418
+      Store Redited_23: 3841551692071740742
+      Store Redited_24: 8317185086527978031
+      Store Redited_25: -4539490916818599567
+      Store Redited_3: 8208832464323785893
+      Store Redited_4: -1316837000629444098
+      Store Redited_5: -6431792573381195647
+      Store Redited_6: -7913988004301201846
+      Store Redited_7: -9013220598333561663
+      Store Redited_8: 6360422491259291601
+      Store Redited_9: 5398272502155169532
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

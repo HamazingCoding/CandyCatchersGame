@@ -1,0 +1,598 @@
+fileFormatVersion: 2
+guid: d02b337a9833b1f469633227c1332fce
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8688313084079181388
+    second: Play Icon ##_0
+  - first:
+      213: -7038158047449414724
+    second: Play Icon ##_1
+  - first:
+      213: -3969652880959512011
+    second: Play Icon ##_2
+  - first:
+      213: -3770569426293959968
+    second: Play Icon ##_3
+  - first:
+      213: -5834237801337700406
+    second: Play Icon ##_4
+  - first:
+      213: 4054836542974007168
+    second: Play Icon ##_5
+  - first:
+      213: 6898753349296848608
+    second: Play Icon ##_6
+  - first:
+      213: -3521069544423613442
+    second: Play Icon ##_7
+  - first:
+      213: -201269761379155652
+    second: Play Icon ##_8
+  - first:
+      213: 9011117232868604740
+    second: Play Icon ##_9
+  - first:
+      213: 1820984291938613325
+    second: Play Icon ##_10
+  - first:
+      213: 978189741767493019
+    second: Play Icon ##_11
+  - first:
+      213: 6999979607572406700
+    second: Play Icon ##_12
+  - first:
+      213: -2419866712716782333
+    second: Play Icon ##_13
+  - first:
+      213: -5944548565979756289
+    second: Play Icon ##_14
+  - first:
+      213: -7627972984876176456
+    second: Play Icon ##_15
+  - first:
+      213: 5117187909905200480
+    second: Play Icon ##_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Play Icon ##_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3442
+        width: 51
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b1f41e5849ec6780800000000000000
+      internalID: -8688313084079181388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Play Icon ##_1
+      rect:
+        serializedVersion: 2
+        x: 2923
+        y: 3444
+        width: 533
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb388bcab80735e90800000000000000
+      internalID: -7038158047449414724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Play Icon ##_2
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 3286
+        width: 208
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5326dc4acb5f8e8c0800000000000000
+      internalID: -3969652880959512011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Play Icon ##_3
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 147
+        width: 3197
+        height: 3093
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e2dcc8851f3cabc0800000000000000
+      internalID: -3770569426293959968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Play Icon ##_4
+      rect:
+        serializedVersion: 2
+        x: 3313
+        y: 3208
+        width: 143
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acf3c1c71af980fa0800000000000000
+      internalID: -5834237801337700406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Play Icon ##_5
+      rect:
+        serializedVersion: 2
+        x: 3337
+        y: 3178
+        width: 119
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0871d363a5ca54830800000000000000
+      internalID: 4054836542974007168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Play Icon ##_6
+      rect:
+        serializedVersion: 2
+        x: 3268
+        y: 2746
+        width: 73
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eeffd9be9b4dbf50800000000000000
+      internalID: 6898753349296848608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Play Icon ##_7
+      rect:
+        serializedVersion: 2
+        x: 3384
+        y: 2574
+        width: 72
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efb1f2f97e5a22fc0800000000000000
+      internalID: -3521069544423613442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Play Icon ##_8
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 142
+        width: 58
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c31c7f8e732f43df0800000000000000
+      internalID: -201269761379155652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Play Icon ##_9
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 136
+        width: 110
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44bb88e516bed0d70800000000000000
+      internalID: 9011117232868604740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Play Icon ##_10
+      rect:
+        serializedVersion: 2
+        x: 3051
+        y: 82
+        width: 176
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d483196c09f654910800000000000000
+      internalID: 1820984291938613325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Play Icon ##_11
+      rect:
+        serializedVersion: 2
+        x: 3043
+        y: 69
+        width: 184
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b958bf0336a339d00800000000000000
+      internalID: 978189741767493019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Play Icon ##_12
+      rect:
+        serializedVersion: 2
+        x: 3037
+        y: 55
+        width: 190
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca1e4589d5ce42160800000000000000
+      internalID: 6999979607572406700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Play Icon ##_13
+      rect:
+        serializedVersion: 2
+        x: 3031
+        y: 42
+        width: 196
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30559b8bb08ea6ed0800000000000000
+      internalID: -2419866712716782333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Play Icon ##_14
+      rect:
+        serializedVersion: 2
+        x: 3025
+        y: 28
+        width: 202
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff808b62398b08da0800000000000000
+      internalID: -5944548565979756289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Play Icon ##_15
+      rect:
+        serializedVersion: 2
+        x: 3016
+        y: 15
+        width: 211
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bbed282cfef32690800000000000000
+      internalID: -7627972984876176456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Play Icon ##_16
+      rect:
+        serializedVersion: 2
+        x: 3007
+        y: 1
+        width: 220
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 065b2d2ca47e30740800000000000000
+      internalID: 5117187909905200480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Play Icon ##_0: -8688313084079181388
+      Play Icon ##_1: -7038158047449414724
+      Play Icon ##_10: 1820984291938613325
+      Play Icon ##_11: 978189741767493019
+      Play Icon ##_12: 6999979607572406700
+      Play Icon ##_13: -2419866712716782333
+      Play Icon ##_14: -5944548565979756289
+      Play Icon ##_15: -7627972984876176456
+      Play Icon ##_16: 5117187909905200480
+      Play Icon ##_2: -3969652880959512011
+      Play Icon ##_3: -3770569426293959968
+      Play Icon ##_4: -5834237801337700406
+      Play Icon ##_5: 4054836542974007168
+      Play Icon ##_6: 6898753349296848608
+      Play Icon ##_7: -3521069544423613442
+      Play Icon ##_8: -201269761379155652
+      Play Icon ##_9: 9011117232868604740
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
