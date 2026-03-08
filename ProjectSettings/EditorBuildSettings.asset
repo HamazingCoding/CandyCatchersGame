@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu.unity
     guid: 2fe1d6ad5d4124e46b5ab5cdc8ac5e8f
   - enabled: 1
+    path: Assets/Scenes/Level Select.unity
+    guid: 00000000000000000000000000000000
+  - enabled: 1
     path: Assets/Scenes/Sprite Assets/Candy Catcher.unity
     guid: 0979d84fa16d664429c62452570a442d
   m_configObjects:

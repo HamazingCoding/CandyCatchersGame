@@ -5,7 +5,7 @@ public class MenuManager : MonoBehaviour
 {
     public void Play()
     {
-        SceneManager.LoadScene("MainGame");
+        SceneManager.LoadScene("Level Select");
     }
 
     public void SurvivalMode()

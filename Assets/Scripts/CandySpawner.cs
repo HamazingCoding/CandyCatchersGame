@@ -12,6 +12,7 @@ public class CandySpawner : MonoBehaviour
     public float minSpawnInterval = 0.4f;
     public float spawnAcceleration = 0.98f;
     public float spawnPadding = 0.6f;
+    public float trickChance = 0.15f;
     public Transform spawnParent;
 
     private Camera mainCam;
@@ -53,7 +54,7 @@ public class CandySpawner : MonoBehaviour
 
         Vector3 pos = new Vector3(randomX, topY, 0f);
 
-        bool spawnTrick = Random.value < 0.15f;
+        bool spawnTrick = Random.value < trickChance;
         GameObject prefab = spawnTrick ? GetRandomTrick() : GetRandomCandy();
 
         if (prefab == null) return;
@@ -84,5 +85,14 @@ public class CandySpawner : MonoBehaviour
             spawning = true;
             StartCoroutine(SpawnRoutine());
         }
+    }
+
+    /// <summary>Applied by GameManager from LevelConfig before spawning starts.</summary>
+    public void ApplyConfig(LevelConfig cfg)
+    {
+        spawnInterval      = cfg.spawnInterval;
+        minSpawnInterval   = cfg.minSpawnInterval;
+        spawnAcceleration  = cfg.spawnAcceleration;
+        trickChance        = cfg.trickChance;
     }
 }

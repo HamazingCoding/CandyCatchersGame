@@ -32,6 +32,16 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
+        // Apply level config selected from Level Select screen
+        LevelConfig cfg = LevelSelection.Selected;
+        lives           = cfg.lives;
+        missedAllowed   = cfg.missedAllowed;
+        candyFallSpeedBase  = cfg.candyFallSpeedBase;
+        difficultyIncrease  = cfg.difficultyIncrease;
+
+        if (spawner != null)
+            spawner.ApplyConfig(cfg);
+
         uiManager.UpdateScore(score);
         uiManager.UpdateLives(lives);
     }
