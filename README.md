@@ -41,6 +41,8 @@ flowchart TD
     E -->|Restart| D
     D -->|Lives = 0 or\nMisses = max| F([💀 Game Over Panel])
     F -->|Restart| D
+    F -->|Level Select| B
+    F -->|Main Menu| A
 ```
 
 ### Level Difficulties
