@@ -1,12 +1,29 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 /// <summary>
 /// Attach this to a GameObject in the Level Select scene.
-/// Wire the 3 buttons: Level1() / Level2() / Level3()
+/// Buttons are auto-wired by name in Awake() — no Inspector drag needed.
+/// Expected button names: Level1Button, Level2Button, Level3Button, BackButton
 /// </summary>
 public class LevelSelectManager : MonoBehaviour
 {
+    void Awake()
+    {
+        var buttons = Object.FindObjectsByType<Button>(FindObjectsSortMode.None);
+        foreach (var btn in buttons)
+        {
+            switch (btn.name)
+            {
+                case "Level1Button": btn.onClick.AddListener(SelectLevel1); break;
+                case "Level2Button": btn.onClick.AddListener(SelectLevel2); break;
+                case "Level3Button": btn.onClick.AddListener(SelectLevel3); break;
+                case "BackButton":   btn.onClick.AddListener(BackToMenu);   break;
+            }
+        }
+    }
+
     public void SelectLevel1()
     {
         LevelSelection.Selected = LevelConfig.Level1();

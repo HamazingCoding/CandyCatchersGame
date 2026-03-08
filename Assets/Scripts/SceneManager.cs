@@ -15,6 +15,12 @@ public class SceneLoader : MonoBehaviour
         SceneManager.LoadScene("Main Menu");
     }
 
+    public void LoadLevelSelect()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("Level Select");
+    }
+
     public void QuitGame()
     {
         Application.Quit();
