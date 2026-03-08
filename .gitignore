@@ -1,0 +1,36 @@
+# Unity generated folders
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+UserSettings/
+MemoryCaptures/
+
+# Unity auto-generated solution/project files
+*.sln
+*.csproj
+*.unityproj
+
+# Visual Studio / Rider cache
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.userprefs
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# KEEP (actual game files):
+# Assets/         - all your scripts, sprites, scenes, audio, prefabs
+# ProjectSettings/ - game settings (physics, audio, input, etc.)
+# Packages/        - package manifest
+# -------------------------
+!Assets/
+!ProjectSettings/
+!Packages/
