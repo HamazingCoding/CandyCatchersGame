@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: d916f914733755e4fb006996e4f51db6
+guid: 1cd2b6ab9b0e5594cb31a1be7e07a1e9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7984424537054230016
-    second: Catt_0
+      213: -1045221720779400332
+    second: Cats Spiral_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,23 +139,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Catt_0
+      name: Cats Spiral_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 832
-        height: 1248
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 00a48f4df20a13190800000000000000
-      internalID: -7984424537054230016
+      spriteID: 47bdb6df160ae71f0800000000000000
+      internalID: -1045221720779400332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cats Spiral_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf64f26cd916f8f4e86624a851ba1e0e
+      internalID: -1957726927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cats Spiral_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe00ad317deb3624ca5db910f72d2b97
+      internalID: -1109240873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cats Spiral_3
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 287de601ddda4eb47857ad6f8500272c
+      internalID: -435355724
       vertices: []
       indices: 
       edges: []
@@ -164,7 +230,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 7a3c8e3877819504db22153bce803b8f
     internalID: 0
     vertices: []
     indices: 
@@ -172,9 +238,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":2.0,"y":2.0},"gridSpriteSize":{"x":512.0,"y":512.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Catt_0: -7984424537054230016
+      Cats Spiral_0: -1045221720779400332
+      Cats Spiral_1: -1957726927
+      Cats Spiral_2: -1109240873
+      Cats Spiral_3: -435355724
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
