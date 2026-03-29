@@ -16,16 +16,26 @@ public class CandySpawner : MonoBehaviour
     public Transform spawnParent;
 
     private Camera mainCam;
-    private bool spawning = true;
+    private bool spawning = false;
+
+    private int _totalCandiesToSpawn = 0;
+    private int _candiesSpawned = 0;
+
+    // True once the spawn cap has been reached — GameManager polls this
+    public bool IsDoneSpawning { get; private set; } = false;
+
+    void Awake()
+    {
+        mainCam = Camera.main;
+    }
 
     void Start()
     {
-        mainCam = Camera.main;
-
         if (spawnParent == null)
             Debug.LogError("CandySpawner missing SpawnParent!");
 
-        StartCoroutine(SpawnRoutine());
+        // Spawning is started by ApplyConfig() (called from GameManager.Start).
+        // Do NOT auto-start here — _totalCandiesToSpawn would still be 0.
     }
 
     IEnumerator SpawnRoutine()
@@ -33,6 +43,18 @@ public class CandySpawner : MonoBehaviour
         while (spawning)
         {
             SpawnOne();
+            _candiesSpawned++;
+
+            // Stop once the level's total has been reached
+            if (_totalCandiesToSpawn > 0 && _candiesSpawned >= _totalCandiesToSpawn)
+            {
+                spawning = false;
+                IsDoneSpawning = true;
+                // Notify GameManager so it can begin watching for screen-clear
+                if (GameManager.Instance != null)
+                    GameManager.Instance.OnSpawningComplete();
+                yield break;
+            }
 
             yield return new WaitForSeconds(spawnInterval);
 
@@ -44,13 +66,11 @@ public class CandySpawner : MonoBehaviour
     {
         float z = Mathf.Abs(mainCam.transform.position.z);
 
-        Vector3 left = mainCam.ScreenToWorldPoint(new Vector3(0, 0, z));
+        Vector3 left  = mainCam.ScreenToWorldPoint(new Vector3(0,            0, z));
         Vector3 right = mainCam.ScreenToWorldPoint(new Vector3(Screen.width, 0, z));
 
         float randomX = Random.Range(left.x + spawnPadding, right.x - spawnPadding);
-
-        float topY = mainCam
-            .ScreenToWorldPoint(new Vector3(0, Screen.height, z)).y + 1f;
+        float topY    = mainCam.ScreenToWorldPoint(new Vector3(0, Screen.height, z)).y + 1f;
 
         Vector3 pos = new Vector3(randomX, topY, 0f);
 
@@ -62,25 +82,19 @@ public class CandySpawner : MonoBehaviour
         Instantiate(prefab, pos, Quaternion.identity, spawnParent);
     }
 
-    GameObject GetRandomCandy()
-    {
-        return candyPrefabs[Random.Range(0, candyPrefabs.Length)];
-    }
-
-    GameObject GetRandomTrick()
-    {
-        return trickPrefabs[Random.Range(0, trickPrefabs.Length)];
-    }
+    GameObject GetRandomCandy() => candyPrefabs[Random.Range(0, candyPrefabs.Length)];
+    GameObject GetRandomTrick() => trickPrefabs[Random.Range(0, trickPrefabs.Length)];
 
     public void StopSpawning()
     {
         spawning = false;
         StopAllCoroutines();
+        // _candiesSpawned is intentionally NOT reset so a revive resumes from the same point
     }
 
     public void StartSpawning()
     {
-        if (!spawning)
+        if (!IsDoneSpawning && !spawning)
         {
             spawning = true;
             StartCoroutine(SpawnRoutine());
@@ -90,9 +104,16 @@ public class CandySpawner : MonoBehaviour
     /// <summary>Applied by GameManager from LevelConfig before spawning starts.</summary>
     public void ApplyConfig(LevelConfig cfg)
     {
-        spawnInterval      = cfg.spawnInterval;
-        minSpawnInterval   = cfg.minSpawnInterval;
-        spawnAcceleration  = cfg.spawnAcceleration;
-        trickChance        = cfg.trickChance;
+        spawnInterval        = cfg.spawnInterval;
+        minSpawnInterval     = cfg.minSpawnInterval;
+        spawnAcceleration    = cfg.spawnAcceleration;
+        trickChance          = cfg.trickChance;
+        _totalCandiesToSpawn = cfg.totalCandiesToSpawn;
+        _candiesSpawned      = 0;
+        IsDoneSpawning       = false;
+
+        // Start spawning now that config is applied with the correct cap
+        spawning = true;
+        StartCoroutine(SpawnRoutine());
     }
 }

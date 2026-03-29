@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
@@ -39,14 +39,20 @@ public class AudioManager : MonoBehaviour
     // 🎵 MUSIC
     public void PlayMusic()
     {
-        if (backgroundMusic == null) return;
+        PlayLevelMusic(backgroundMusic);
+    }
 
-        if (!musicSource.isPlaying)
-        {
-            musicSource.clip = backgroundMusic;
-            musicSource.loop = true;
-            musicSource.Play();
-        }
+    /// <summary>Swap to a specific clip; falls back to backgroundMusic if null.</summary>
+    public void PlayLevelMusic(AudioClip clip)
+    {
+        AudioClip target = clip != null ? clip : backgroundMusic;
+        if (target == null) return;
+
+        if (musicSource.clip == target && musicSource.isPlaying) return;
+
+        musicSource.clip = target;
+        musicSource.loop = true;
+        musicSource.Play();
     }
 
     public void StopMusic()
