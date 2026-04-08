@@ -3,6 +3,12 @@
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
 .utmp/
+
+# Abacus AI
+.abacus.donotdelete
+
+# Raw source assets (not part of Unity project)
+Level Icons/
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/

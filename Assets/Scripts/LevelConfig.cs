@@ -27,6 +27,9 @@ public class LevelConfig
     [Header("Level Length")]
     public int totalCandiesToSpawn = 30;
 
+    [Header("Mode")]
+    public bool isEndless = false;
+
     [Header("Star Thresholds (candies caught)")]
     public int targetFor1Star;
     public int targetFor2Stars;
@@ -214,6 +217,25 @@ public class LevelConfig
         targetFor1Star      = 28,
         targetFor2Stars     = 49,
         targetFor3Stars     = 63
+    };
+
+    public static LevelConfig Endless() => new LevelConfig
+    {
+        levelNumber         = 0,
+        levelName           = "Endless",
+        isEndless           = true,
+        lives               = 3,
+        missedAllowed       = 99,
+        candyFallSpeedBase  = 3.0f,
+        difficultyIncrease  = 1.008f,
+        spawnInterval       = 1.0f,
+        minSpawnInterval    = 0.3f,
+        spawnAcceleration   = 0.985f,
+        trickChance         = 0.10f,
+        totalCandiesToSpawn = 0,
+        targetFor1Star      = 0,
+        targetFor2Stars     = 0,
+        targetFor3Stars     = 0
     };
 
     /// <summary>Returns the config for level n (1–10). Falls back to Level1 for out-of-range values.</summary>

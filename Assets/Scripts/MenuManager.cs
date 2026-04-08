@@ -10,7 +10,8 @@ public class MenuManager : MonoBehaviour
 
     public void SurvivalMode()
     {
-        SceneManager.LoadScene("SurvivalScene");
+        LevelSelection.Selected = LevelConfig.Endless();
+        SceneManager.LoadScene("Candy Catcher");
     }
 
     public void Store()

@@ -21,6 +21,10 @@ public class CandySpawner : MonoBehaviour
     private int _totalCandiesToSpawn = 0;
     private int _candiesSpawned = 0;
 
+    private bool _isEndless = false;
+    private const float TrickChanceIncrement = 0.002f;
+    private const float MaxTrickChance = 0.50f;
+
     // True once the spawn cap has been reached — GameManager polls this
     public bool IsDoneSpawning { get; private set; } = false;
 
@@ -55,6 +59,9 @@ public class CandySpawner : MonoBehaviour
                     GameManager.Instance.OnSpawningComplete();
                 yield break;
             }
+
+            if (_isEndless)
+                trickChance = Mathf.Min(trickChance + TrickChanceIncrement, MaxTrickChance);
 
             yield return new WaitForSeconds(spawnInterval);
 
@@ -109,6 +116,7 @@ public class CandySpawner : MonoBehaviour
         spawnAcceleration    = cfg.spawnAcceleration;
         trickChance          = cfg.trickChance;
         _totalCandiesToSpawn = cfg.totalCandiesToSpawn;
+        _isEndless           = cfg.isEndless;
         _candiesSpawned      = 0;
         IsDoneSpawning       = false;
 

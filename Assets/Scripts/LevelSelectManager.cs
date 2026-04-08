@@ -13,6 +13,8 @@ public class LevelSelectManager : MonoBehaviour
 {
     void Awake()
     {
+        ApplyBackground();
+
         var buttons = Object.FindObjectsByType<Button>(FindObjectsSortMode.None);
         foreach (var btn in buttons)
         {
@@ -31,7 +33,6 @@ public class LevelSelectManager : MonoBehaviour
                 case "BackButton":    btn.onClick.AddListener(BackToMenu);    break;
             }
 
-            // Lock/unlock interactability based on save data
             for (int n = 1; n <= 10; n++)
             {
                 if (btn.name == "Level" + n + "Button")
@@ -73,6 +74,63 @@ public class LevelSelectManager : MonoBehaviour
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene("Candy Catcher");
+    }
+
+    private void ApplyBackground()
+    {
+        var canvas = GetComponentInParent<Canvas>();
+        if (canvas == null) canvas = FindFirstObjectByType<Canvas>();
+        if (canvas == null) return;
+
+        if (canvas.transform.Find("LevelSelectBGFill") != null) return;
+
+        // Soft pastel fill so the default Unity gray never peeks through
+        var fillGO = new GameObject("LevelSelectBGFill", typeof(RectTransform));
+        fillGO.transform.SetParent(canvas.transform, false);
+        fillGO.transform.SetAsFirstSibling();
+        StretchFull(fillGO.GetComponent<RectTransform>());
+        var fillImg = fillGO.AddComponent<Image>();
+        fillImg.color = new Color(0.82f, 0.75f, 0.92f, 1f);
+        fillImg.raycastTarget = false;
+
+        var tex = Resources.Load<Texture2D>("Backgrounds/LevelSelectBG");
+        if (tex == null) return;
+
+        // Container with RectMask2D clips overflow from the cover-scaled image
+        var containerGO = new GameObject("LevelSelectBG", typeof(RectTransform));
+        containerGO.transform.SetParent(canvas.transform, false);
+        containerGO.transform.SetSiblingIndex(1);
+        StretchFull(containerGO.GetComponent<RectTransform>());
+        containerGO.AddComponent<RectMask2D>();
+
+        // Image inside uses AspectRatioFitter(EnvelopeParent) for cover behavior
+        var imgGO = new GameObject("BGImage", typeof(RectTransform));
+        imgGO.transform.SetParent(containerGO.transform, false);
+
+        var imgRT = imgGO.GetComponent<RectTransform>();
+        imgRT.anchorMin = new Vector2(0.5f, 0.5f);
+        imgRT.anchorMax = new Vector2(0.5f, 0.5f);
+        imgRT.pivot = new Vector2(0.5f, 0.5f);
+        imgRT.anchoredPosition = Vector2.zero;
+
+        var fitter = imgGO.AddComponent<AspectRatioFitter>();
+        fitter.aspectMode = AspectRatioFitter.AspectMode.EnvelopeParent;
+        fitter.aspectRatio = (float)tex.width / tex.height;
+
+        var img = imgGO.AddComponent<Image>();
+        img.sprite = Sprite.Create(tex,
+            new Rect(0, 0, tex.width, tex.height),
+            new Vector2(0.5f, 0.5f), 100f);
+        img.preserveAspect = false;
+        img.raycastTarget = false;
+    }
+
+    private static void StretchFull(RectTransform rt)
+    {
+        rt.anchorMin = Vector2.zero;
+        rt.anchorMax = Vector2.one;
+        rt.offsetMin = Vector2.zero;
+        rt.offsetMax = Vector2.zero;
     }
 
     /// <summary>

@@ -28,8 +28,12 @@ public class Collectible : MonoBehaviour
 
     void Start()
     {
-        rb.bodyType       = RigidbodyType2D.Kinematic;
-        rb.gravityScale   = 0f;
+        rb.bodyType     = RigidbodyType2D.Kinematic;
+        rb.gravityScale = 0f;
+
+        if (GameManager.Instance != null)
+            fallSpeed = GameManager.Instance.candyFallSpeedBase;
+
         rb.linearVelocity = Vector2.down * fallSpeed;
 
         // Randomise spin direction for variety
