@@ -118,7 +118,7 @@ public class GameManager : MonoBehaviour
     void ApplyLevelMusic(int level)
     {
         // Levels 4-7 have dedicated BGM; all others fall back to the default OST
-        string clipName = (level >= 4 && level <= 7) ? "BGM/Level" + level + "BGM" : "BGM/DefaultBGM";
+        string clipName = (level >= 4 && level <= 10) ? "BGM/Level" + level + "BGM" : "BGM/DefaultBGM";
         var clip = Resources.Load<AudioClip>(clipName);
         audioManager.PlayLevelMusic(clip);
     }
